@@ -1,4 +1,18 @@
-# Welcome to your Lovable project
+# GHETTOSLOP
+
+## Host on GitHub Pages
+
+The `docs` folder is a complete static website with both photos included. It needs no server and works on a repository URL or a custom domain.
+
+1. Connect this project to GitHub using Lovable's **+ → GitHub → Connect project**, or upload the project to your repository.
+2. In the GitHub repository, open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select your branch (usually **main**) and the **/docs** folder, then click **Save**.
+5. GitHub will show the website address on that page when deployment finishes.
+
+To update the static website after changing its design, run `bun run export:pages` and push the updated `docs` folder. The original street photo is already included in that folder. The gang animation is CSS-only, and the email opens your email app. Fonts load from Google Fonts with a local fallback.
+
+## Lovable development
 
 This project was built with [Lovable](https://lovable.dev).
 
