@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the scene in a browser-safe shared React component and its semantic CSS in the global stylesheet so the Lovable preview and static export stay consistent.
+- Export GitHub Pages into `docs/` using the shared component and local image copies; relative URLs allow repository subpaths without requiring a server.
